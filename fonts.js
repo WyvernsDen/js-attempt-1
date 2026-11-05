@@ -7,7 +7,7 @@ class LocalTypefaceSearch {
                 'Noto Mono',
                 'SF Mono',
                 'Roboto Mono',
-                'monospace'
+                // 'monospace'
             ],
             geoSans: [
                 'Avenir Next',
@@ -16,14 +16,14 @@ class LocalTypefaceSearch {
                 'DIN 1451',
                 'Neuzeit S',
                 'Montserrat',
-                'sans-serif'
+                // 'sans-serif'
             ],
             appleSerif: [
                 '-apple-system-ui-serif',
                 'ui-serif',
                 'New York',
                 'Georgia',
-                'serif'
+                // 'serif'
             ]
         };
     }
