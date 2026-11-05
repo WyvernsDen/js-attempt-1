@@ -7,10 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*.editor-text, .preview-container p {*/
-/*    font-family: var(--applied-font, sans-serif);*/
-/*}*/
-h1,
+
+h1 {
+    font-family: var(--local-sans), sans-serif;
+    text-align: center;
+}
 h2 {
     font-family: var(--local-sans), sans-serif;
 }
@@ -21,10 +22,6 @@ body {
     gap: 24px;
     padding: 14px;
     min-height: 100vh;
-}
-h1 {
-    font-family: var(--local-sans), sans-serif;
-    text-align: center;
 }
 form, section {
     display: flex;
@@ -45,7 +42,7 @@ form button {
     cursor: pointer;
     font-family: var(--local-mono), monospace;
 }
-.UDButtons {
+.DBUDUI {
     padding: 4px;
     cursor: pointer;
     font-family: var(--local-mono), monospace;
