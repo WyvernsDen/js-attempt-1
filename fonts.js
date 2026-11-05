@@ -37,7 +37,7 @@ class LocalTypefaceSearch {
             .map(tf => tf.includes(' ') && !tf.startsWith('-') ? `"${tf}"` : tf)
             // .join(', ');
     }
-    applyTF(selector, query) {
+    exportTypeface(selector, query) {
         const elements = document.querySelectorAll(selector);
         const foundLocal = this.getTF(query);
         // console.warn(`${foundLocal}`)
@@ -46,4 +46,4 @@ class LocalTypefaceSearch {
     }
 }
 
-export const localTypefaces = new LocalTypefaceSearch();
+export const local = new LocalTypefaceSearch();
