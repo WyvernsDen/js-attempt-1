@@ -1,0 +1,52 @@
+:root {
+    --local-sans: 'geoSans';
+    --local-mono: 'shellMono';
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*.editor-text, .preview-container p {*/
+/*    font-family: var(--applied-font, sans-serif);*/
+/*}*/
+h1,
+h2 {
+    font-family: var(--local-sans), sans-serif;
+}
+body {
+    font-family: var(--local-mono), monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 14px;
+    min-height: 100vh;
+}
+h1 {
+    font-family: var(--local-sans), sans-serif;
+    text-align: center;
+}
+form, section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+form textarea {
+    resize: none;
+    width: 100%;
+    min-height: 60px;
+    padding: 14px;
+}
+form button {
+    padding: 4px;
+    cursor: pointer;
+    font-family: var(--local-mono), monospace;
+}
+.UDButtons {
+    padding: 4px;
+    cursor: pointer;
+    font-family: var(--local-mono), monospace;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+<!--    im way too tired to implement comparison operators in js so here ya go-->
+    <script type="module" src="fonts.js" defer>
+        const foundSans = localTypefaces.applyTF('foundSans', 'geoSans');
+        const foundMono = localTypefaces.applyTF('foundMono', 'shellMono');
+        document.documentElement.style.setProperty('--local-sans', foundSans)
+        document.documentElement.style.setProperty('--local-mono', foundMono)
+    </script>
+</head>
+
+<body>
+    <h1>Todo list</h1>
+    <form>
+        <textarea placeholder="Lorem ipsum dolor"></textarea>
+        <button>Add Todo</button>
+    </form>
+    <h4>Current Todos:</h4>
+    <div class="todoContainer"></div>
+        <div class="todo">
+            <p>
+                Get done
+            </p>
+            <div>
+                <button class="UDButtons"><p>delete</p></button>
+                <button class="UDButtons"><p>edit</p></button>
+            </div>
+        </div>
+</body>
+
+</html>
