@@ -40,7 +40,7 @@ class LocalTypefaceSearch {
     applyTF(selector, query) {
         const elements = document.querySelectorAll(selector);
         const foundLocal = this.getTF(query);
-        console.warn(`${foundLocal}`)
+        // console.warn(`${foundLocal}`)
         elements.forEach(el=> el.style.fontFamily = foundLocal);
         return foundLocal
     }
